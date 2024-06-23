@@ -38,9 +38,9 @@ testem.log
 /typings
 
 # System files
-.DS_Store
-Thumbs.db
+.DS_Store/
+Thumbs.db/
 
 # Environment Files
-src/environments/environment.development.ts
+src/environments/environment.development.ts/
 src/environments/environment.ts
