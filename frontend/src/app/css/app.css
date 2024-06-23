@@ -1,0 +1,104 @@
+.hero-card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mat-card-title {
+    font-size: 1.5rem;
+}
+
+.header2 {
+    background-color: #007bff;
+    color: honeydew;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+button {
+    color: #ffffff;
+    margin-left: 10px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 200px) {
+    .header2 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .spacer {
+        flex: none;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%;
+        ;
+        color: white
+    }
+}
+
+.header {
+    background-color: rgba(128, 0, 0, 0.057);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a,
+nav button {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    font-size: 1.2rem;
+
+}
+
+nav a:hover,
+nav button:hover {
+    color: red;
+}

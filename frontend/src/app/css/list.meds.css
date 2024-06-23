@@ -1,0 +1,54 @@
+.example-button-row .mat-mdc-button-base {
+    margin: 4px;
+    background-color: burlywood;
+    width: 1px;
+    padding: 2px
+}
+
+.input {
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid pink;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.hero-card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mat-icon {
+    position: absolute;
+    top: 62%;
+    transform: translateY(-40%);
+    left: 170px;
+    color: blue;
+
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-card-title {
+    font-size: 1.5rem;
+}
+
+.medicine {
+    font-size: 20px;
+    font-weight: 20px;
+
+}
+
+.char {
+    margin-top: 20%;
+}

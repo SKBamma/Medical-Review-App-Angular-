@@ -1,0 +1,33 @@
+.example-form {
+    width: 60%;
+    border: 1px solid red;
+    border-radius: 15px;
+    margin: 5%;
+    background-color: lightblue;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.example-full-width {
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 5%
+}
+
+.example-button-row {
+    margin-top: 7%;
+    margin-left: 40%;
+    margin-bottom: 10%
+}
+
+.fileInput {
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+.header {
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-bottom: 10;
+    color: blue;
+}
